@@ -1,0 +1,143 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body, nav {
+    background-color: #2F2E41;
+}
+
+header .home {
+    /*preenchimento caixa nav*/
+    padding: 25px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+section {
+    padding-bottom:0px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+    color: white;
+}
+ul li a {
+    color: white;
+}
+ul li a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+header h1 {
+    font-family:'Silkscreen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px ;
+    line-height: 40px;
+    color:white ;
+}
+.h2 {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: white;
+}
+
+#button_avanca {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.desenvolvedores {
+    display: flex;
+    gap: 70px;
+    
+}
+footer h2, h4, p {
+    color: white;
+    text-align: center;
+    
+}
+.projets {
+    padding-bottom: 30px;
+}
+
+.projets h2 {
+    margin-bottom: 20px;
+}
+.projets p {
+    margin-bottom: 20px;
+}
+
+.projets button {
+    display: block;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.desenvolvedores img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #191827;
+
+    display: block;
+    margin: auto;
+}
+.matheus, .daniel, .felipe {
+    width: 500px;
+    height: 250px;
+}
+a.js-scroll-trigger {
+    color: #FFFFFF;
+}
+
+a.js-scroll-trigger:hover {
+    text-decoration: none;
+}
+
+
+section {
+    padding-top:30px ;
+}
+
+.img-logo {
+    width: 50px;
+    height: 50px;
+}
+.link-maximize, .link-minimize {
+    color: #6c757d!important;
+    -webkit-transition: color 0.35s ease-in-out;
+    -moz-transition: color 0.35s ease-in-out;
+    -ms-transition: color 0.35s ease-in-out;
+    -o-transition: color 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out;
+}
+.link-maximize:hover , .link-minimize:hover {
+    color: rgba(108,117,125, 0.6)!important;
+}
+.line-breaking {
+    border: 1px solid #cecece;
+    width: 80%;
+}
+.navbar-custom{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);}
+
+    .offset-md-7 {
+        margin: auto;
+        padding: 24px 0px 24px;
+      }
